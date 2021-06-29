@@ -1,0 +1,8 @@
+CREATE DATABASE sistema;
+
+CREATE TABLE usuario(
+    id INTEGER PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    senha TEXT NOT NULL
+);
